@@ -54,3 +54,25 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.banner-child-1{
+    margin-bottom: 10px;
+}
+
+.banner-button-1{
+    background-color: aquamarine;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    color: #065962;
+    font-weight: 800;
+
+}
+.banner-button-2{
+    background-color: #ee6dfc;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    color: #033b41;
+    font-weight: 800;
+}
