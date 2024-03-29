@@ -1,36 +1,40 @@
-*{
+* {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
 
 /* Navber Section */
-#navber-container{
+#navber-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: azure;
     padding: 10px;
 }
-#navber-container:hover{
+
+#navber-container:hover {
     box-shadow: 0 1px 2px 3px grey;
 }
 
-.navber-child-1{
+.navber-child-1 {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.navber-child-2{
+
+.navber-child-2 {
     display: flex;
     align-items: center;
     gap: 10px;
     font-weight: 500;
 }
-.navber-child-2 a{
+
+.navber-child-2 a {
     text-decoration: none;
     color: #065962;
 }
-.navber-child-3{
+
+.navber-child-3 {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -40,39 +44,84 @@
     border-radius: 5px;
     font-weight: 500;
 }
-.navber-child-3 a{
+
+.navber-child-3 a {
     text-decoration: none;
     color: #065962;
 }
-.navber-child-3 img{
+
+.navber-child-3 img {
     height: 20px;
 }
 
 /* banner section */
-#banner-container{
+#banner-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
-.banner-child-1{
+.banner-child-1 {
+    margin-bottom: 10px;
+    background-image: url("images/Group-14.png");
+    padding: 112px;
+}
+
+.banner-goat-section {
+    background: -webkit-linear-gradient(#e863ff, #ff5454);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+.banner-child-1 h2,
+p {
     margin-bottom: 10px;
 }
 
-.banner-button-1{
-    background-color: aquamarine;
+.banner-button-1 {
+    background-color: #065962;
     padding: 10px 15px;
     border: none;
-    border-radius: 10px;
-    color: #065962;
+    border-radius: 15px;
+    color: white;
     font-weight: 800;
-
+    margin-right: 10px;
 }
-.banner-button-2{
+
+.banner-button-2 {
     background-color: #ee6dfc;
     padding: 10px 15px;
     border: none;
-    border-radius: 10px;
-    color: #033b41;
+    border-radius: 15px;
+    color: white;
     font-weight: 800;
+}
+
+.banner-child-2 img {
+    height: 400px;
+    width: 500px;
+}
+
+/* We are Gamer */
+#We-are-gamer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-image: url("images/Group-14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gamer-first-child{
+    height: 100%;
+    width: 100%;
+}
+.gamer-first-child img{
+    height: 100%;
+    width: 100%;
+}
+.gamer-second-child{
+   text-align: right;
+   padding-right: 50px;
 }
